@@ -177,6 +177,39 @@ var server = net.createServer(function (socket2) {
   parsingdata[8] =  parseInt(d013);
   parsingdata[9] =  parseInt(d014);
 
+// 최대값 설정
+if(parsingdata[0]>90){
+  parsingdata[0]=90;
+}
+if(parsingdata[1]>90){
+  parsingdata[1]=90;
+}
+if(parsingdata[2]>90){
+  parsingdata[2]=90;
+}
+if(parsingdata[3]>90){
+  parsingdata[3]=90;
+}
+if(parsingdata[4]>90){
+  parsingdata[4]=90;
+}
+if(parsingdata[5]>90){
+  parsingdata[5]=90;
+}
+if(parsingdata[6]>90){
+  parsingdata[6]=90;
+}
+if(parsingdata[7]>90){
+  parsingdata[7]=90;
+}
+if(parsingdata[8]>90){
+  parsingdata[8]=90;
+}
+if(parsingdata[9]>90){
+  parsingdata[9]=90;
+}
+
+
 
 
 //민감도
